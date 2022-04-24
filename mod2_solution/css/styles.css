@@ -1,9 +1,9 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
-
     font-family: cursive;
 }
+
 h1 {
     text-align: center;
     font-size: 175%;
@@ -14,23 +14,29 @@ h1 {
 .card {
     border: 1px solid black;
     background-color: #999999;
-    height: 200px;
+    height: 230px;
     padding: 0px 10px 10px 10px;
-    margin: 10px 5px 10px 5px;
+    margin: 10px 10px 10px 10px;
 }
 
 .inner_title {
     border: 1px solid black;
     font-size: 125%;
+    font-weight: bold;
     background-color: #D59898;
-    width: 100px;
-    padding:10px;
+    width: 160px;
+    padding: 6px;
     text-align: center;
     position: relative;
-    right: 0px;
-    font-weight: bold;
+    float: right;
+    left: 10px;
 }
 
+.inner_text {
+    margin-top: 60px;
+}
+
+/********** Other types of inner/card title **********/
 #beef {
     color: white;
     background-color: #C14543;
